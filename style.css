@@ -30,6 +30,8 @@ body {
     min-width: 260px;
 } 
     
-
+.simple {
+    display: grid;
+    grid-template-columns: repeat(4, 65px);
 
     
