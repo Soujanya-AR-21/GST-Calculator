@@ -33,5 +33,8 @@ body {
 .simple {
     display: grid;
     grid-template-columns: repeat(4, 65px);
+    gap: 20px;
+    box-shadow: px 1px 1px 1px #474444; 
+}
 
     
