@@ -37,4 +37,6 @@ body {
     box-shadow: px 1px 1px 1px #474444; 
 }
 
-    
+ button:hover {
+    background: #666;
+}   
