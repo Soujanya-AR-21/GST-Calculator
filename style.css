@@ -75,3 +75,6 @@ h1{
 .gst{
     display: inline;
     grid-template-columns: repeat(5, 65px);
+    gap: 10px;
+    box-shadow: px 1px 1px 1px #474444;
+}
