@@ -52,3 +52,6 @@ button {
     box-shadow: 0 3px 3px 1px #444; 
     transition: background 0.2s;
 }
+
+.operator {
+    background: #3b3a37;
