@@ -71,3 +71,7 @@ button {
 h1{
     margin-top: 0 ;
 }
+
+.gst{
+    display: inline;
+    grid-template-columns: repeat(5, 65px);
