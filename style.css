@@ -55,3 +55,6 @@ button {
 
 .operator {
     background: #3b3a37;
+    font-size: 1.5rem;
+    border: 1px solid #444;
+}
