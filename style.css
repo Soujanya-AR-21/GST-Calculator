@@ -58,3 +58,8 @@ button {
     font-size: 1.5rem;
     border: 1px solid #444;
 }
+
+.equal {
+    background: #ef5350;
+    font-size: 1.5rem;
+}
