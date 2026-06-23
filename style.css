@@ -87,3 +87,6 @@ h1{
     cursor: pointer;
     height: 50px;
     width: 60px;
+    text-align: left;
+    background:  #3b3a37;
+    color: white;
