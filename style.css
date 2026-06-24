@@ -94,3 +94,8 @@ h1{
     transition: background 0.2s;
     margin-bottom: 20px;
 }
+
+li{
+    display: inline;
+    gap: 300px;  
+}
