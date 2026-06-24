@@ -107,3 +107,6 @@ ul{
 .dot{
     display:flex; 
     align-items:center; 
+    gap:100px;
+}
+
