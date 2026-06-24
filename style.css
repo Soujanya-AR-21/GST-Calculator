@@ -99,3 +99,7 @@ li{
     display: inline;
     gap: 300px;  
 }
+
+ul{
+    gap: 300px;
+}
