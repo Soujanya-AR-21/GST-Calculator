@@ -103,3 +103,7 @@ li{
 ul{
     gap: 300px;
 }
+
+.dot{
+    display:flex; 
+    align-items:center; 
