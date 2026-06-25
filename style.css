@@ -117,4 +117,6 @@ h2{
 .dots{
     border: none;
     border-radius: none;
+    box-shadow: none;
+    background: none;
 
