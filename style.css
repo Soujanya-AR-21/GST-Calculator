@@ -123,3 +123,7 @@ h2{
     font-size: 2rem;
 }
 
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
