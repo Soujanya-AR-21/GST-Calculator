@@ -119,4 +119,7 @@ h2{
     border-radius: none;
     box-shadow: none;
     background: none;
+    color: #000;
+    font-size: 2rem;
+}
 
