@@ -128,7 +128,7 @@ h2{
     display: inline-block;
 }
 
-.dropdown {
+.dropdown { 
     display: none;
     position: absolute;
     right: 0;
