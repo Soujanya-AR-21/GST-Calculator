@@ -155,3 +155,5 @@ h2{
 
 /* HISTORY PAGE */
 .history-page {
+    display: none;
+    position: fixed;
