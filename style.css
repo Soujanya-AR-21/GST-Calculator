@@ -141,4 +141,6 @@ h2{
 
 .dropdown button {
     width: 100%;
-    padding: 10px;    
+    padding: 10px; 
+    border: none;
+    background: none;
