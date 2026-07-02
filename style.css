@@ -146,3 +146,5 @@ h2{
     background: none;
     color: white;
     text-align: left;
+    cursor: pointer;
+}
