@@ -139,4 +139,6 @@ h2{
     overflow: hidden;
 }
 
-    
+.dropdown button {
+    width: 100%;
+    padding: 10px;    
