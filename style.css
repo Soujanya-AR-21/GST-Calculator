@@ -148,3 +148,7 @@ h2{
     text-align: left;
     cursor: pointer;
 }
+
+.dropdown button:hover {
+    background: #444;
+}
