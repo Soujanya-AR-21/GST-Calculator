@@ -157,3 +157,5 @@ h2{
 .history-page {
     display: none;
     position: fixed;
+    justify-content: center;
+    align-items: center;
