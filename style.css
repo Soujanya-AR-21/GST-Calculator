@@ -163,4 +163,6 @@ h2{
     width:25% ;
     border-radius: 15px;
     background: #0f1115;
+    z-index: 9999; /* VERY IMPORTANT */
+}
     
