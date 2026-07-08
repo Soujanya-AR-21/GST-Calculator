@@ -165,4 +165,7 @@ h2{
     background: #0f1115;
     z-index: 9999; /* VERY IMPORTANT */
 }
+
+.history-header {
+    display: flex;
     
