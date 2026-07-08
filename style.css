@@ -182,4 +182,6 @@ h2{
     
 
 .dot-C{
-    border: none;    
+    border: none; 
+    border-radius: none;
+    box-shadow: none;
