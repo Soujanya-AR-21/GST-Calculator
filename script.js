@@ -20,5 +20,9 @@ function appendOperator(op) {
 }
 
 // Clear / Delete
+function clearDisplay() {
+    currentInput = '';
+    updateDisplay();
+}
 
 
