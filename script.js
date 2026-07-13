@@ -6,3 +6,5 @@ function updateDisplay() {
     display.textContent = currentInput || '0';
 }
 
+// Input
+
