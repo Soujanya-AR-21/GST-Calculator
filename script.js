@@ -19,4 +19,6 @@ function appendOperator(op) {
     }
 }
 
+// Clear / Delete
+
 
