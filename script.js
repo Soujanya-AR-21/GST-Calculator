@@ -14,5 +14,9 @@ function appendNumber(num) {
 
 function appendOperator(op) {
     if (currentInput && !isNaN(currentInput.slice(-1))) {
+        currentInput += op;
+        updateDisplay();
+    }
+}
 
 
