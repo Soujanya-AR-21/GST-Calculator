@@ -9,4 +9,7 @@ function updateDisplay() {
 // Input
 function appendNumber(num) {
     currentInput += num;
+     updateDisplay();
+}
+
 
