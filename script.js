@@ -39,3 +39,9 @@ function calculateResult() {
         currentInput = result;
         CalculatorStorage.addToHistory(expression, result);
 
+        } catch {
+        currentInput = 'Error';
+    }
+    updateDisplay();
+}
+
