@@ -32,3 +32,7 @@ function deleteChar() {
 
 // Calculate
 function calculateResult() {
+    try {
+        let expression = currentInput;
+        let result = eval(currentInput).toString();
+
