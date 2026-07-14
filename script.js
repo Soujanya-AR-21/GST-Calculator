@@ -29,3 +29,6 @@ function deleteChar() {
     currentInput = currentInput.slice(0, -1);
     updateDisplay();
 }
+
+// Calculate
+function calculateResult() {
