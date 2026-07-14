@@ -36,3 +36,6 @@ function calculateResult() {
         let expression = currentInput;
         let result = eval(currentInput).toString();
 
+        currentInput = result;
+        CalculatorStorage.addToHistory(expression, result);
+
