@@ -46,3 +46,5 @@ function calculateResult() {
 }
 
 // GST
+if (!isNaN(amount)) {
+        let gst = (amount * rate) / 100;
