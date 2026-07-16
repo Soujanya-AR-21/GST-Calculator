@@ -51,3 +51,6 @@ if (!isNaN(amount)) {
         currentInput = (amount + gst).toFixed(2);
         updateDisplay();
     }
+function removeGST(rate) {
+    let amount = parseFloat(currentInput);
+    if (!isNaN(amount)) {
