@@ -48,3 +48,6 @@ function calculateResult() {
 // GST
 if (!isNaN(amount)) {
         let gst = (amount * rate) / 100;
+        currentInput = (amount + gst).toFixed(2);
+        updateDisplay();
+    }
