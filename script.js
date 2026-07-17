@@ -65,3 +65,6 @@ const CalculatorStorage = {
     getHistory() {
         return JSON.parse(localStorage.getItem(this.HISTORY_KEY)) || [];
     },
+
+    addToHistory(expression, result) {
+        const history = this.getHistory();
