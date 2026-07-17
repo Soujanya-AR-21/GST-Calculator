@@ -61,3 +61,7 @@ function removeGST(rate) {
 
 // STORAGE
 const CalculatorStorage = {
+    HISTORY_KEY: 'calculator_history',
+    getHistory() {
+        return JSON.parse(localStorage.getItem(this.HISTORY_KEY)) || [];
+    },
