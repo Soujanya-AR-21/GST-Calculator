@@ -73,4 +73,6 @@ const CalculatorStorage = {
             result,
             timestamp: new Date().toLocaleString()
         });
+
+        if (history.length > 50) history.length = 50;
             
