@@ -68,3 +68,6 @@ const CalculatorStorage = {
 
     addToHistory(expression, result) {
         const history = this.getHistory();
+        history.unshift({
+            expression,
+            
