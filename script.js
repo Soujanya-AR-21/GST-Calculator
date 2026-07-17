@@ -60,3 +60,4 @@ function removeGST(rate) {
 }
 
 // STORAGE
+const CalculatorStorage = {
