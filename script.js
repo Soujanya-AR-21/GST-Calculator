@@ -70,4 +70,7 @@ const CalculatorStorage = {
         const history = this.getHistory();
         history.unshift({
             expression,
+            result,
+            timestamp: new Date().toLocaleString()
+        });
             
