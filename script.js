@@ -92,5 +92,9 @@ const CalculatorStorage = {
             <div class="history-card">
                 <div>${item.expression} = ${item.result}</div>
                 <small>${item.timestamp}</small>
+            </div>
+        `).join('');
+    }
+};
                 
             
