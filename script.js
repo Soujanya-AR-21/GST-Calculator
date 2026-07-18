@@ -90,4 +90,7 @@ const CalculatorStorage = {
         const list = document.getElementById('historyList');
         list.innerHTML = history.map(item => `
             <div class="history-card">
+                <div>${item.expression} = ${item.result}</div>
+                <small>${item.timestamp}</small>
+                
             
