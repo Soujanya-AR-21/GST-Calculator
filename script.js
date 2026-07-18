@@ -84,4 +84,8 @@ const CalculatorStorage = {
         localStorage.removeItem(this.HISTORY_KEY);
         this.renderHistory();
     },
+
+    renderHistory() {
+        const history = this.getHistory();
+        const list = document.getElementById('historyList');
             
