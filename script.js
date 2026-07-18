@@ -88,4 +88,6 @@ const CalculatorStorage = {
     renderHistory() {
         const history = this.getHistory();
         const list = document.getElementById('historyList');
+        list.innerHTML = history.map(item => `
+            <div class="history-card">
             
