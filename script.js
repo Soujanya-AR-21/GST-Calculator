@@ -79,4 +79,9 @@ const CalculatorStorage = {
         localStorage.setItem(this.HISTORY_KEY, JSON.stringify(history));
             this.renderHistory();
     },
+
+    clearHistory() {
+        localStorage.removeItem(this.HISTORY_KEY);
+        this.renderHistory();
+    },
             
