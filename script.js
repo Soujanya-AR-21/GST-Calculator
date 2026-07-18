@@ -75,4 +75,8 @@ const CalculatorStorage = {
         });
 
         if (history.length > 50) history.length = 50;
+        
+        localStorage.setItem(this.HISTORY_KEY, JSON.stringify(history));
+            this.renderHistory();
+    },
             
