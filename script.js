@@ -103,4 +103,4 @@ function clearHistory() {
 }
 
 function openHistory() {
-    document.querySelector(".calculator").style.display = "none";
+    document.querySelector(".calculator").style.display = "none"; // hide calculator
