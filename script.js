@@ -101,3 +101,6 @@ const CalculatorStorage = {
 function clearHistory() {
     CalculatorStorage.clearHistory();
 }
+
+function openHistory() {
+    document.querySelector(".calculator").style.display = "none";
