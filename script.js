@@ -97,4 +97,7 @@ const CalculatorStorage = {
     }
 };
                 
-// Buttons            
+// Buttons
+function clearHistory() {
+    CalculatorStorage.clearHistory();
+}
