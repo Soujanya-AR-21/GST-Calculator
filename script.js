@@ -104,4 +104,4 @@ function clearHistory() {
 
 function openHistory() {
     document.querySelector(".calculator").style.display = "none"; // hide calculator
-    document.getElementById("historyPage").style.display = "block"; 
+    document.getElementById("historyPage").style.display = "block"; // show history 
