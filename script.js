@@ -108,4 +108,4 @@ function openHistory() {
 }
 
 function closeHistory() {
-    document.getElementById("historyPage").style.display = "none"; 
+    document.getElementById("historyPage").style.display = "none"; // hide history
