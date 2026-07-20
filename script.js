@@ -111,3 +111,5 @@ function closeHistory() {
     document.getElementById("historyPage").style.display = "none"; // hide history
     document.querySelector(".calculator").style.display = "block"; // show calculator
 }
+
+// Load history
