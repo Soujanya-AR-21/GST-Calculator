@@ -109,3 +109,4 @@ function openHistory() {
 
 function closeHistory() {
     document.getElementById("historyPage").style.display = "none"; // hide history
+    document.querySelector(".calculator").style.display = "block"; 
