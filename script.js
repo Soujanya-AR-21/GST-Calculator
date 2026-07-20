@@ -109,4 +109,5 @@ function openHistory() {
 
 function closeHistory() {
     document.getElementById("historyPage").style.display = "none"; // hide history
-    document.querySelector(".calculator").style.display = "block"; 
+    document.querySelector(".calculator").style.display = "block"; // show calculator
+}
