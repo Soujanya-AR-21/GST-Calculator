@@ -106,3 +106,6 @@ function openHistory() {
     document.querySelector(".calculator").style.display = "none"; // hide calculator
     document.getElementById("historyPage").style.display = "block"; // show history 
 }
+
+function closeHistory() {
+    document.getElementById("historyPage").style.display = "none"; 
