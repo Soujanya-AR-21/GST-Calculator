@@ -115,3 +115,4 @@ function closeHistory() {
 // Load history
 window.onload = function () {
     CalculatorStorage.renderHistory();
+};
