@@ -4,7 +4,7 @@ let currentInput = '';
 // Display
 function updateDisplay() {
     display.textContent = currentInput || '0';
-}
+} 
 
 // Input
 function appendNumber(num) {
