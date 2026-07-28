@@ -12,7 +12,7 @@ function appendNumber(num) {
      updateDisplay();
 }
 
-function appendOperator(op) {
+function appendOperator(op) { 
     if (currentInput && !isNaN(currentInput.slice(-1))) {
         currentInput += op;
         updateDisplay();
